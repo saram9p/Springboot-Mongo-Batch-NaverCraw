@@ -44,7 +44,6 @@ public class NaverCraw {
 				
 				newsList.add(news);
 			} catch (Exception e) {
-				e.printStackTrace();
 				System.out.println("찾을수 없어요: " + e.getMessage());
 			}
 			
